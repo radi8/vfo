@@ -719,6 +719,78 @@ void vfo::writeSettings()
     settings.setValue("Band5_FiltH",bands[5][bDat_filtH]);
     settings.setValue("Band5_FiltL",bands[5][bDat_filtL]);
     settings.setValue("Band5_Index",bands[5][bDat_index]);
+
+    settings.setValue("Band6_Mem00",bands[6][bDat_mem00]);
+    settings.setValue("Band6_Mem01",bands[6][bDat_mem01]);
+    settings.setValue("Band6_Mem02",bands[6][bDat_mem02]);
+    settings.setValue("Band6_Mem03",bands[6][bDat_mem03]);
+    settings.setValue("Band6_Cfreq",bands[6][bDat_cFreq]);
+    settings.setValue("Band6_Fqmin",bands[6][bDat_fqmin]);
+    settings.setValue("Band6_Fqmax",bands[6][bDat_fqmax]);
+    settings.setValue("Band6_Modee",bands[6][bDat_modee]);
+    settings.setValue("Band6_FiltH",bands[6][bDat_filtH]);
+    settings.setValue("Band6_FiltL",bands[6][bDat_filtL]);
+    settings.setValue("Band6_Index",bands[6][bDat_index]);
+
+    settings.setValue("Band7_Mem00",bands[7][bDat_mem00]);
+    settings.setValue("Band7_Mem01",bands[7][bDat_mem01]);
+    settings.setValue("Band7_Mem02",bands[7][bDat_mem02]);
+    settings.setValue("Band7_Mem03",bands[7][bDat_mem03]);
+    settings.setValue("Band7_Cfreq",bands[7][bDat_cFreq]);
+    settings.setValue("Band7_Fqmin",bands[7][bDat_fqmin]);
+    settings.setValue("Band7_Fqmax",bands[7][bDat_fqmax]);
+    settings.setValue("Band7_Modee",bands[7][bDat_modee]);
+    settings.setValue("Band7_FiltH",bands[7][bDat_filtH]);
+    settings.setValue("Band7_FiltL",bands[7][bDat_filtL]);
+    settings.setValue("Band7_Index",bands[7][bDat_index]);
+
+    settings.setValue("Band8_Mem00",bands[8][bDat_mem00]);
+    settings.setValue("Band8_Mem01",bands[8][bDat_mem01]);
+    settings.setValue("Band8_Mem02",bands[8][bDat_mem02]);
+    settings.setValue("Band8_Mem03",bands[8][bDat_mem03]);
+    settings.setValue("Band8_Cfreq",bands[8][bDat_cFreq]);
+    settings.setValue("Band8_Fqmin",bands[8][bDat_fqmin]);
+    settings.setValue("Band8_Fqmax",bands[8][bDat_fqmax]);
+    settings.setValue("Band8_Modee",bands[8][bDat_modee]);
+    settings.setValue("Band8_FiltH",bands[8][bDat_filtH]);
+    settings.setValue("Band8_FiltL",bands[8][bDat_filtL]);
+    settings.setValue("Band8_Index",bands[8][bDat_index]);
+
+    settings.setValue("Band9_Mem00",bands[9][bDat_mem00]);
+    settings.setValue("Band9_Mem01",bands[9][bDat_mem01]);
+    settings.setValue("Band9_Mem02",bands[9][bDat_mem02]);
+    settings.setValue("Band9_Mem03",bands[9][bDat_mem03]);
+    settings.setValue("Band9_Cfreq",bands[9][bDat_cFreq]);
+    settings.setValue("Band9_Fqmin",bands[9][bDat_fqmin]);
+    settings.setValue("Band9_Fqmax",bands[9][bDat_fqmax]);
+    settings.setValue("Band9_Modee",bands[9][bDat_modee]);
+    settings.setValue("Band9_FiltH",bands[9][bDat_filtH]);
+    settings.setValue("Band9_FiltL",bands[9][bDat_filtL]);
+    settings.setValue("Band9_Index",bands[9][bDat_index]);
+
+    settings.setValue("Band10_Mem00",bands[10][bDat_mem00]);
+    settings.setValue("Band10_Mem01",bands[10][bDat_mem01]);
+    settings.setValue("Band10_Mem02",bands[10][bDat_mem02]);
+    settings.setValue("Band10_Mem03",bands[10][bDat_mem03]);
+    settings.setValue("Band10_Cfreq",bands[10][bDat_cFreq]);
+    settings.setValue("Band10_Fqmin",bands[10][bDat_fqmin]);
+    settings.setValue("Band10_Fqmax",bands[10][bDat_fqmax]);
+    settings.setValue("Band10_Modee",bands[10][bDat_modee]);
+    settings.setValue("Band10_FiltH",bands[10][bDat_filtH]);
+    settings.setValue("Band10_FiltL",bands[10][bDat_filtL]);
+    settings.setValue("Band10_Index",bands[10][bDat_index]);
+
+    settings.setValue("Band11_Mem00",bands[11][bDat_mem00]);
+    settings.setValue("Band11_Mem01",bands[11][bDat_mem01]);
+    settings.setValue("Band11_Mem02",bands[11][bDat_mem02]);
+    settings.setValue("Band11_Mem03",bands[11][bDat_mem03]);
+    settings.setValue("Band11_Cfreq",bands[11][bDat_cFreq]);
+    settings.setValue("Band11_Fqmin",bands[11][bDat_fqmin]);
+    settings.setValue("Band11_Fqmax",bands[11][bDat_fqmax]);
+    settings.setValue("Band11_Modee",bands[11][bDat_modee]);
+    settings.setValue("Band11_FiltH",bands[11][bDat_filtH]);
+    settings.setValue("Band11_FiltL",bands[11][bDat_filtL]);
+    settings.setValue("Band11_Index",bands[11][bDat_index]);
 }
 
 void vfo::closeEvent(QCloseEvent *)
