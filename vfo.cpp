@@ -797,3 +797,30 @@ void vfo::closeEvent(QCloseEvent *)
  {
      SaveMySettings();
  }
+
+void vfo::on_toolBtnUp_clicked()
+{
+    switch (selectedVFO) {
+    case 'A':
+    case 'S': {
+        writeA(readA() + 24000);
+        break;
+    }
+    case 'B':
+        writeB(readB() + 24000);
+    }
+
+}
+
+void vfo::on_toolBtnDn_clicked()
+{
+    switch (selectedVFO) {
+    case 'A':
+    case 'S': {
+        writeA(readA() - 24000);
+        break;
+    }
+    case 'B':
+        writeB(readB() - 24000);
+    }
+}

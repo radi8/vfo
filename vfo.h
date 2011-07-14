@@ -16,9 +16,7 @@ class vfo : public QWidget
 public:
     explicit vfo(QWidget *parent = 0);
     ~vfo();
-    void SaveMySettings(){
-        writeSettings();
-    }
+    void SaveMySettings() {writeSettings();} //setter for config file write
 
 public slots:
     void togglePTT(bool pttRq); //Request to toggle ptt & return freq
@@ -34,6 +32,8 @@ protected:
     void closeEvent(QCloseEvent *);
 
 private slots:
+    void on_toolBtnDn_clicked();
+    void on_toolBtnUp_clicked();
     void btnGrpBand(int);
     void on_pBtnvfoA_clicked();
     void on_pBtnvfoB_clicked();
